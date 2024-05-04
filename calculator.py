@@ -2,7 +2,6 @@
 
 def main():
     lmp = input("Please enter your last menstrual cycle date in the format of MM/DD/YY: ")
-    convert(lmp)
     edd = convert(lmp)
     print(f'Your estimated delivery date is {edd}.')
     
